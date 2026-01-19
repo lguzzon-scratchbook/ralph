@@ -11,7 +11,7 @@ Ralph is an autonomous loop that implements features by breaking them into small
 
 ```bash
 # Run ralph in current project (assumes prd.json exists)
-~/skills/ralph/scripts/ralph.sh [max_iterations]
+~/skills/ralph/scripts/ralph.js [max_iterations]
 ```
 
 ## Workflow
@@ -54,7 +54,7 @@ Generate a `prd.json` file in the project root:
 ### Step 3: Run the Loop
 
 ```bash
-~/skills/ralph/scripts/ralph.sh [max_iterations]
+~/skills/ralph/scripts/ralph.js [max_iterations]
 ```
 
 Default is 10 iterations.
@@ -140,7 +140,7 @@ Each story MUST be completable in ONE iteration. If you can't describe it in 2-3
 ```
 
 **Then say:**
-> prd.json created with 2 user stories. Run `~/skills/ralph/scripts/ralph.sh` to start autonomous execution.
+> prd.json created with 2 user stories. Run `~/skills/ralph/scripts/ralph.js` to start autonomous execution.
 
 ## How Ralph Executes
 
